@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Changed to align content to the top */
+  width: 100%;
+}
+
+.performance-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f7f7f7; /* Light grey background */
+  width: 100%; /* Full width */
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.performance-item {
+  text-align: center;
+  flex: 1;
+}
+
+.earnings-section {
+  text-align: left; /* Align text to the left */
+  width: 100%; /* Full width */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.earnings-current {
+  font-size: 1.5em; /* Larger font size for current earnings */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.earnings-detail {
+  margin-bottom: 15px;
+}
+
+.earnings-item {
+  background-color: #f1f1f1; /* Light grey background for items */
+  margin: 5px 0;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    padding: 10px;
+  }
+  
+  .performance-section, .earnings-section {
+    padding: 10px;
+  }
+  
+  .performance-item, .earnings-item {
+    padding: 8px;
+  }
+  
+  .earnings-current {
+    font-size: 1.2em;
+  }
+}
+
+/* Remove unnecessary animations and logo styles */
+/* .App-logo, @keyframes App-logo-spin, .App-link */
